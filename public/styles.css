@@ -22,8 +22,10 @@ label {
     color: brown;
 }
 
-#names-div {
+#names-section {
     font-size: 24px;
     color: brown;
+    background-color: burlywood;
+    border: 5px solid brown;
 }
 
