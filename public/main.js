@@ -1,5 +1,5 @@
 const nameSection = document.querySelector('#names-section')
-const getBtn = document.querySelector('#get-Btn')
+const getBtn = document.querySelector('#get-btn')
 
 function displayHIkers(hikersArr) {
     nameSection.innerHTML = ``
@@ -16,6 +16,5 @@ function getHikersFront() {
     axios.get(`https://sd-deployment-lab.herokuapp.com/api/hikers`)
     .then(res => displayHIkers(res.data))
 }
-
 
 getBtn.addEventListener('click', getHikersFront)
