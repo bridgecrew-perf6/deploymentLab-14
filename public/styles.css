@@ -21,6 +21,8 @@ div {
     background-color: burlywood;
     border: 5px solid brown;
     display: flex;
+    color: brown;
+    font-size: 24px;
 }
 
 label {
