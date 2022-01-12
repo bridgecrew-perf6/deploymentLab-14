@@ -30,12 +30,9 @@ label {
     color: brown;
 }
 
-container {
-    display: grid;
-}
-form {
-    grid-column: 1;
-    grid-row: 1;
+#form-container {
+    font-size: 24px;
+    color: brown;
 }
 
 section {

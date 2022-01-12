@@ -1,4 +1,4 @@
-const nameSection = document.querySelector('#names-section')
+const nameSection = document.querySelector('form-container')
 const getBtn = document.querySelector('#get-btn')
 
 function displayHIkers(hikersArr) {
