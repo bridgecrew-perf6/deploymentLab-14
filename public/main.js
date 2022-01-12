@@ -8,6 +8,8 @@ function displayHIkers(hikersArr) {
         const hikerCard = document.createElement('div')
         const hikerName = document.createElement('h2')
 
+        hikerName.textContent = hikerObj.name
+
         hikerCard.appendChild(hikerName)
         nameSection.appendChild(hikerCard)
     })
