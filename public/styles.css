@@ -20,7 +20,6 @@ img {
 div {
     background-color: burlywood;
     border: 5px solid brown;
-    display: flex;
     color: brown;
     font-size: 24px;
 }
@@ -35,7 +34,3 @@ label {
     color: brown;
 }
 
-section {
-    grid-column: 1;
-    grid-row: 2;
-}
