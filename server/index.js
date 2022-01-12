@@ -16,7 +16,7 @@ app.use(cors());
 const port = process.env.PORT || 4005;
 
 
-app.get('/api/hikers', ctrl.getHikers)
+app.get('https://sd-deployment-lab.herokuapp.com/api/hikers', ctrl.getHikers)
 
 
 
