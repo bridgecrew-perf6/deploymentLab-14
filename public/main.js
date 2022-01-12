@@ -1,14 +1,15 @@
-const nameSection = document.querySelector('form-container')
+const nameDiv = document.querySelector('#names-div')
 const getBtn = document.querySelector('#get-btn')
 
 function displayHIkers(hikersArr) {
-    nameSection.innerHTML = ``
+    nameDiv.innerHTML = ``
 
     hikersArr.forEach((hikerObj) => {
         const hikerCard = document.createElement('div')
         const hikerName = document.createElement('h2')
 
         hikerCard.appendChild(hikerName)
+        nameDiv.appendChild(hikerCard)
     })
 }
 
