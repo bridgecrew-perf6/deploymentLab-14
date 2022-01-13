@@ -13,7 +13,7 @@ var rollbar = new Rollbar({
 })
 
 // record a generic message and send it to Rollbar
-rollbar.log('Hello world!')
+rollbar.log('Connected')
 
 app.get('/', function(req,res) {
     res.sendFile(path.join(__dirname, '../index.html'));
